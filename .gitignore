@@ -1,0 +1,29 @@
+# 비밀 키
+.env
+*.key
+
+# 데이터셋 (이미지·라벨) — Google Drive에서 관리
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# 학습 가중치
+weights/
+*.pt
+*.pth
+*.onnx
+
+# ultralytics 실행 결과
+runs/
+
+# 파이썬
+__pycache__/
+*.pyc
+.venv/
+venv/
